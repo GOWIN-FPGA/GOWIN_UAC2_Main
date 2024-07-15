@@ -1,0 +1,19 @@
+//Copyright (C)2014-2023 Gowin Semiconductor Corporation.
+//All rights reserved.
+//File Title: Post-Place file
+//GOWIN Version: V1.9.9 Beta
+//Part Number: GW1N-LV9LQ144C7/I6
+//Device: GW1N-9
+//Device Version: C
+//Created Time: Fri Jul 21 11:10:58 2023
+
+u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/u_cdr_serdes_x8_dx/fifo_rx/fifo_4to8_sub_inst/Equal.mem_Equal.mem_0_0_s PLACE_BSRAM_R28[10]
+u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_tx_phy/u_fifo_8to4/fifo_8to4_sub_inst/Small.mem_Small.mem_0_0_s PLACE_BSRAM_R28[13]
+usb_fifo/usb_rx_buf_ep1/sync_rx_pkt_fifo/RAM_RAM_0_0_s PLACE_BSRAM_R10[6]
+usb_fifo/usb_tx_buf_ep2/sync_tx_pkt_fifo/RAM_RAM_0_0_s PLACE_BSRAM_R10[5]
+usb_fifo/usb_tx_buf_ep2/sync_tx_pkt_fifo/RAM_RAM_0_0_s0 PLACE_BSRAM_R10[4]
+uac_ctrl_inst/endpt0_dat_0_s37 PLACE_BSRAM_R10[1]
+audio_tx_inst/fifo_left/mem_mem_0_0_s PLACE_BSRAM_R10[8]
+audio_tx_inst/fifo_left/mem_mem_0_1_s PLACE_BSRAM_R10[7]
+audio_tx_inst/fifo_right/mem_mem_0_0_s PLACE_BSRAM_R10[9]
+audio_tx_inst/fifo_right/mem_mem_0_1_s PLACE_BSRAM_R10[10]

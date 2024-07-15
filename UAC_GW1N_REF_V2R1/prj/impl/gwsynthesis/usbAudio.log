@@ -1,0 +1,139 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\async_fifo\async_fifo.v'
+Undeclared symbol 'arempty_val', assumed default net type 'wire'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\async_fifo\async_fifo.v":113)
+Undeclared symbol 'awfull_val', assumed default net type 'wire'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\async_fifo\async_fifo.v":154)
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\fifo_sc_top\fifo_sc_8x1024.v'
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\gowin_dcs\gowin_dcs.v'
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\gowin_rpll\gowin_rpll.v'
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\iis_rpll\gowin_rpll\iis_rPLL.v'
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\sync_fifo\sync_rx_pkt_fifo.v'
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\sync_fifo\sync_tx_pkt_fifo.v'
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\top.v'
+Undeclared symbol 'xmclk', assumed default net type 'wire'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\top.v":210)
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\uac_ctrl.v'
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_audio_descriptor.v'
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_fifo.v'
+Undeclared symbol 'pkt_fifo_empty', assumed default net type 'wire'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_fifo.v":1476)
+Undeclared symbol 'c_fifo_empty', assumed default net type 'wire'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_fifo.v":1693)
+Undeclared symbol 'arempty_val', assumed default net type 'wire'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_fifo.v":1839)
+Undeclared symbol 'awfull_val', assumed default net type 'wire'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_fifo.v":1873)
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v'
+Analyzing included file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\static_macro_define.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":3881)
+Back to file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":3881)
+Analyzing included file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller_define.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":3881)
+Back to file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":3881)
+Undeclared symbol '**', assumed default net type '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":0)
+Undeclared symbol '**', assumed default net type '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":0)
+Undeclared symbol '**', assumed default net type '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":0)
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller_top.v'
+Analyzing included file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\static_macro_define.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller_top.v":11)
+Back to file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller_top.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller_top.v":11)
+Analyzing included file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller_define.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller_top.v":12)
+Back to file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller_top.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller_top.v":12)
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v'
+Analyzing included file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy_name.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":4360)
+WARN  (EX3705) : Macro 'module_name' is redefined("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy_name.v":1)
+Back to file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":4360)
+Analyzing included file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\static_macro_define.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":4360)
+Back to file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":4360)
+Undeclared symbol '**', assumed default net type '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Undeclared symbol '**', assumed default net type '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Undeclared symbol '**', assumed default net type '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Undeclared symbol '**', assumed default net type '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Undeclared symbol '**', assumed default net type '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy_top.v'
+Analyzing included file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy_name.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy_top.v":4)
+Back to file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy_top.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy_top.v":4)
+Analyzing included file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\static_macro_define.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy_top.v":5)
+Back to file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy_top.v'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy_top.v":5)
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\MIC_CLK_GEN.vo'
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\audio_rx.vo'
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\audio_tx.vo'
+Analyzing Verilog file 'C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\iis_gen.vo'
+Compiling module 'top'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\top.v":25)
+Compiling module 'Gowin_rPLL'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\gowin_rpll\gowin_rpll.v":10)
+Compiling module 'iis_rPLL'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\iis_rpll\gowin_rpll\iis_rPLL.v":10)
+Compiling module 'Gowin_DCS'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\gowin_dcs\gowin_dcs.v":10)
+Compiling module 'USB_Device_Controller_Top'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller_top.v":16)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v":0)
+Compiling module 'usb_desc(VENDORID=16'h33AB,PRODUCTID=16'h0202,VERSIONBCD=16'h0201,HSSUPPORT=1,CLOCK_SOURCE_ID=8'b00000101,AUDIO_CONTROL_UNIT_ID=8'b00000011,CLOCK_SELECTOR_ID=8'b00101000,AUDIO_IT_ENDPOINT=8'b10000010,AUDIO_OT_ENDPOINT=8'b00000001,AUDIO_IT_FB_ENDPOINT=8'b10000001)'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_audio_descriptor.v":25)
+Compiling module 'USB2_0_SoftPHY_Top'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy_top.v":7)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Extracting RAM for identifier '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Extracting RAM for identifier '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v":0)
+Compiling module 'usb_fifo'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_fifo.v":44)
+Compiling module 'usb_rx_buf(P_AFULL=800,P_ASIZE=10)'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_fifo.v":1565)
+Compiling module 'sync_rx_pkt_fifo(ASIZE=10)'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\sync_fifo\sync_rx_pkt_fifo.v":22)
+Extracting RAM for identifier 'RAM'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\sync_fifo\sync_rx_pkt_fifo.v":46)
+Compiling module 'clk_cross_fifo'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_fifo.v":1735)
+Extracting RAM for identifier 'mem'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_fifo.v":1781)
+Compiling module 'usb_tx_buf(P_ENDPOINT=2,P_AFULL=800,P_ASIZE=10)'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_fifo.v":1305)
+Compiling module 'sync_tx_pkt_fifo(ASIZE=11)'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\sync_fifo\sync_tx_pkt_fifo.v":22)
+Extracting RAM for identifier 'RAM'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\sync_fifo\sync_tx_pkt_fifo.v":46)
+Compiling module 'uac_ctrl(CLOCK_SOURCE_ID=8'b00000101,AUDIO_CONTROL_UNIT_ID=8'b00000011,CLOCK_SELECTOR_ID=8'b00101000,AUDIO_IT_FB_ENDPOINT=8'b10000001,DOP_PACKET_CODE0=8'b00000101,DOP_PACKET_CODE1=8'b11111010)'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\uac_ctrl.v":20)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\audio_tx.vo":0)
+Compiling module 'async_fifo(ASIZE=10,AEMPT=10,AFULL=64)'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\async_fifo\async_fifo.v":14)
+Extracting RAM for identifier 'mem'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\async_fifo\async_fifo.v":45)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\audio_tx.vo":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\audio_tx.vo":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\MIC_CLK_GEN.vo":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\iis_gen.vo":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\audio_rx.vo":0)
+Compiling module '**'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\audio_rx.vo":0)
+Compiling module 'async_fifo(ASIZE=4,AFULL=10)'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\async_fifo\async_fifo.v":14)
+Extracting RAM for identifier 'mem'("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\async_fifo\async_fifo.v":45)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input MIC_IIS_DATA_I is unused("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\top.v":39)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "usb_desc" instantiated to "u_usb_desc" is swept in optimizing("C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\top.v":386)
+[95%] Generate netlist file "C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\impl\gwsynthesis\usbAudio.vg" completed
+WARN  (CK3000) : The clock "DEFAULT_CLK"'s frequency does not match u_iis_rPLL/rpll_inst's param "FCLKIN = "49.152""
+WARN  (CK3000) : Can't calculate clocks' relationship between: "u_pll/rpll_inst/CLKOUTD.default_gen_clk" and "u_iis_rPLL/rpll_inst/CLKOUT.default_gen_clk"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "u_pll/rpll_inst/CLKOUTD.default_gen_clk" and "u_iis_rPLL/rpll_inst/CLKOUTD.default_gen_clk"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "u_iis_rPLL/rpll_inst/CLKOUT.default_gen_clk" and "u_pll/rpll_inst/CLKOUTD.default_gen_clk"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "u_iis_rPLL/rpll_inst/CLKOUTD.default_gen_clk" and "u_pll/rpll_inst/CLKOUTD.default_gen_clk"
+[100%] Generate report file "C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\impl\gwsynthesis\usbAudio_syn.rpt.html" completed
+GowinSynthesis finish

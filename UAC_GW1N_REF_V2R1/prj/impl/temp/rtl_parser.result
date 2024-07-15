@@ -1,0 +1,192 @@
+[
+ {
+  "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/fifo_sc_top/fifo_sc_8x1024.v",
+  "InstLine" : 312,
+  "InstName" : "fifo_sc_8x1024",
+  "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/fifo_sc_top/fifo_sc_8x1024.v",
+  "ModuleLine" : 312,
+  "ModuleName" : "fifo_sc_8x1024",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/fifo_sc_top/fifo_sc_8x1024.v",
+    "InstLine" : 335,
+    "InstName" : "fifo_sc_inst",
+    "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/fifo_sc_top/fifo_sc_8x1024.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "~fifo_sc.fifo_sc_8x1024"
+   }
+  ]
+ },
+ {
+  "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/top.v",
+  "InstLine" : 25,
+  "InstName" : "top",
+  "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/top.v",
+  "ModuleLine" : 25,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/top.v",
+    "InstLine" : 527,
+    "InstName" : "audio_tx_inst",
+    "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/audio_tx.vo",
+    "ModuleLine" : 1,
+    "ModuleName" : "audio_tx"
+   },
+   {
+    "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/top.v",
+    "InstLine" : 563,
+    "InstName" : "MIC_CLK_GEN_inst",
+    "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/MIC_CLK_GEN.vo",
+    "ModuleLine" : 1,
+    "ModuleName" : "MIC_CLK_GEN"
+   },
+   {
+    "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/top.v",
+    "InstLine" : 591,
+    "InstName" : "audio_rx_inst",
+    "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/audio_rx.vo",
+    "ModuleLine" : 1,
+    "ModuleName" : "audio_rx"
+   },
+   {
+    "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/top.v",
+    "InstLine" : 201,
+    "InstName" : "u_pll",
+    "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/top.v",
+    "InstLine" : 208,
+    "InstName" : "u_iis_rPLL",
+    "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/iis_rpll/gowin_rpll/iis_rPLL.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "iis_rPLL"
+   },
+   {
+    "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/top.v",
+    "InstLine" : 242,
+    "InstName" : "Gowin_DCS_inst",
+    "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/gowin_dcs/gowin_dcs.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_DCS"
+   },
+   {
+    "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/top.v",
+    "InstLine" : 257,
+    "InstName" : "u_usb_device_controller_top",
+    "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/usb_controller/usb_device_controller_top.v",
+    "ModuleLine" : 16,
+    "ModuleName" : "USB_Device_Controller_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/usb_controller/usb_device_controller_top.v",
+      "InstLine" : 147,
+      "InstName" : "u_usb_device_controller",
+      "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/usb_controller/usb_device_controller.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~usb_device_controller.USB_Device_Controller_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/top.v",
+    "InstLine" : 360,
+    "InstName" : "u_usb_desc",
+    "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/usb_audio_descriptor.v",
+    "ModuleLine" : 25,
+    "ModuleName" : "usb_desc"
+   },
+   {
+    "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/top.v",
+    "InstLine" : 389,
+    "InstName" : "u_USB_SoftPHY_Top",
+    "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/usb_softphy/usb2_0_softphy_top.v",
+    "ModuleLine" : 7,
+    "ModuleName" : "USB2_0_SoftPHY_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/usb_softphy/usb2_0_softphy_top.v",
+      "InstLine" : 40,
+      "InstName" : "usb2_0_softphy",
+      "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/usb_softphy/usb2_0_softphy.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~usb2_0_softphy.USB2_0_SoftPHY_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/top.v",
+    "InstLine" : 429,
+    "InstName" : "usb_fifo",
+    "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/usb_fifo.v",
+    "ModuleLine" : 44,
+    "ModuleName" : "usb_fifo",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/usb_fifo.v",
+      "InstLine" : 597,
+      "InstName" : "usb_rx_buf_ep1",
+      "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/usb_fifo.v",
+      "ModuleLine" : 1565,
+      "ModuleName" : "usb_rx_buf",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/usb_fifo.v",
+        "InstLine" : 1623,
+        "InstName" : "sync_rx_pkt_fifo",
+        "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/sync_fifo/sync_rx_pkt_fifo.v",
+        "ModuleLine" : 22,
+        "ModuleName" : "sync_rx_pkt_fifo"
+       },
+       {
+        "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/usb_fifo.v",
+        "InstLine" : 1680,
+        "InstName" : "clk_cross_fifo",
+        "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/usb_fifo.v",
+        "ModuleLine" : 1735,
+        "ModuleName" : "clk_cross_fifo"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/usb_fifo.v",
+      "InstLine" : 623,
+      "InstName" : "usb_tx_buf_ep2",
+      "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/usb_fifo.v",
+      "ModuleLine" : 1305,
+      "ModuleName" : "usb_tx_buf",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/usb_fifo.v",
+        "InstLine" : 1358,
+        "InstName" : "clk_cross_fifo",
+        "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/usb_fifo.v",
+        "ModuleLine" : 1735,
+        "ModuleName" : "clk_cross_fifo"
+       },
+       {
+        "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/usb_fifo.v",
+        "InstLine" : 1464,
+        "InstName" : "sync_tx_pkt_fifo",
+        "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/sync_fifo/sync_tx_pkt_fifo.v",
+        "ModuleLine" : 22,
+        "ModuleName" : "sync_tx_pkt_fifo"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/top.v",
+    "InstLine" : 490,
+    "InstName" : "uac_ctrl_inst",
+    "ModuleFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/uac_ctrl.v",
+    "ModuleLine" : 20,
+    "ModuleName" : "uac_ctrl"
+   }
+  ]
+ }
+]

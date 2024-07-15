@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="762" Alu="75" Lut="1251" Bsram="4" Ssram="23">
+    <SubModule name="u_pll"/>
+    <SubModule name="u_iis_rPLL"/>
+    <SubModule name="Gowin_DCS_inst"/>
+    <SubModule name="u_usb_device_controller_top" Register="491" Alu="91" Lut="1838"/>
+    <SubModule name="u_USB_SoftPHY_Top" Register="424" Alu="14" Lut="1018" Bsram="2"/>
+    <SubModule name="usb_fifo" Register="16" Alu="28" Lut="26">
+        <SubModule name="usb_rx_buf_ep1" Register="15" Lut="8">
+            <SubModule name="sync_rx_pkt_fifo" Register="35" Alu="31" Lut="25" Bsram="1"/>
+            <SubModule name="clk_cross_fifo" Register="65" Alu="12" Lut="63" Ssram="8"/>
+        </SubModule>
+        <SubModule name="usb_tx_buf_ep2" Register="15" Alu="12" Lut="12">
+            <SubModule name="clk_cross_fifo" Register="64" Alu="6" Lut="56" Ssram="8"/>
+            <SubModule name="sync_tx_pkt_fifo" Register="61" Alu="77" Lut="60" Bsram="2"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="uac_ctrl_inst" Register="421" Alu="24" Lut="718" Bsram="1"/>
+</Module>

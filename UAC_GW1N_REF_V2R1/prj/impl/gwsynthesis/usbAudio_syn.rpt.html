@@ -1,0 +1,2224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>synthesis Report</title>
+<style type="text/css">
+body { font-family: Verdana, Arial, sans-serif; font-size: 12px; }
+div#main_wrapper{ width: 100%; }
+div#content { margin-left: 350px; margin-right: 30px; }
+div#catalog_wrapper {position: fixed; top: 30px; width: 350px; float: left; }
+div#catalog ul { list-style-type: none; }
+div#catalog li { text-align: left; list-style-type:circle; color: #0084ff; margin-top: 3px; margin-bottom: 3px; }
+div#catalog a { display:inline-block; text-decoration: none; color: #0084ff; font-weight: bold; padding: 3px; }
+div#catalog a:visited { color: #0084ff; }
+div#catalog a:hover { color: #fff; background: #0084ff; }
+hr { margin-top: 30px; margin-bottom: 30px; }
+h1, h3 { text-align: center; }
+h1 {margin-top: 50px; }
+table, th, td { border: 1px solid #aaa; }
+table { border-collapse:collapse; margin-top: 10px; margin-bottom: 20px; width: 100%; }
+th, td { padding: 5px 5px 5px 5px; }
+th { color: #fff; font-weight: bold; background-color: #0084ff; }
+table.summary_table td.label { width: 24%; min-width: 200px; background-color: #dee8f4; }
+table.detail_table td.label { min-width: 100px; width: 8%;}
+</style>
+</head>
+<body>
+<div id="main_wrapper">
+<div id="catalog_wrapper">
+<div id="catalog">
+<ul>
+<li><a href="#about" style=" font-size: 16px;">Synthesis Messages</a></li>
+<li><a href="#summary" style=" font-size: 16px;">Synthesis Details</a></li>
+<li><a href="#resource" style=" font-size: 16px;">Resource</a>
+<ul>
+<li><a href="#usage" style=" font-size: 14px;">Resource Usage Summary</a></li>
+<li><a href="#utilization" style=" font-size: 14px;">Resource Utilization Summary</a></li>
+</ul>
+</li>
+<li><a href="#timing" style=" font-size: 16px;">Timing</a>
+<ul>
+<li><a href="#clock" style=" font-size: 14px;">Clock Summary</a></li>
+<li><a href="#performance" style=" font-size: 14px;">Max Frequency Summary</a></li>
+<li><a href="#detail timing" style=" font-size: 14px;">Detail Timing Paths Informations</a></li>
+</ul>
+</li>
+</ul>
+</div><!-- catalog -->
+</div><!-- catalog_wrapper -->
+<div id="content">
+<h1><a name="about">Synthesis Messages</a></h1>
+<table class="summary_table">
+<tr>
+<td class="label">Report Title</td>
+<td>GowinSynthesis Report</td>
+</tr>
+<tr>
+<td class="label">Design File</td>
+<td>C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\async_fifo\async_fifo.v<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\fifo_sc_top\fifo_sc_8x1024.v<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\gowin_dcs\gowin_dcs.v<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\gowin_rpll\gowin_rpll.v<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\iis_rpll\gowin_rpll\iis_rPLL.v<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\sync_fifo\sync_rx_pkt_fifo.v<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\sync_fifo\sync_tx_pkt_fifo.v<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\top.v<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\uac_ctrl.v<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_audio_descriptor.v<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_fifo.v<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller_top.v<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy_top.v<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\MIC_CLK_GEN.vo<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\audio_rx.vo<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\audio_tx.vo<br>
+C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\iis_gen.vo<br>
+</td>
+</tr>
+<tr>
+<td class="label">GowinSynthesis Constraints File</td>
+<td>---</td>
+</tr>
+<tr>
+<td class="label">Version</td>
+<td>V1.9.9 Beta</td>
+</tr>
+<tr>
+<td class="label">Part Number</td>
+<td>GW1N-LV9LQ144C7/I6</td>
+</tr>
+<tr>
+<td class="label">Device</td>
+<td>GW1N-9</td>
+</tr>
+<tr>
+<td class="label">Device Version</td>
+<td>C</td>
+</tr>
+<tr>
+<td class="label">Created Time</td>
+<td>Fri Jul 21 11:10:33 2023
+</td>
+</tr>
+<tr>
+<td class="label">Legal Announcement</td>
+<td>Copyright (C)2014-2023 Gowin Semiconductor Corporation. ALL rights reserved.</td>
+</tr>
+</table>
+<h1><a name="summary">Synthesis Details</a></h1>
+<table class="summary_table">
+<tr>
+<td class="label">Top Level Module</td>
+<td>top</td>
+</tr>
+<tr>
+<td class="label">Synthesis Process</td>
+<td>Running parser:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 0.484s, Elapsed time = 0h 0m 0.948s, Peak memory usage = 283.625MB<br/>Running netlist conversion:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 0MB<br/>Running device independent optimization:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 0: CPU time = 0h 0m 0.375s, Elapsed time = 0h 0m 0.742s, Peak memory usage = 283.625MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 1: CPU time = 0h 0m 0.171s, Elapsed time = 0h 0m 0.491s, Peak memory usage = 283.625MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 2: CPU time = 0h 0m 0.531s, Elapsed time = 0h 0m 1s, Peak memory usage = 283.625MB<br/>Running inference:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 0: CPU time = 0h 0m 0.14s, Elapsed time = 0h 0m 0.179s, Peak memory usage = 283.625MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 1: CPU time = 0h 0m 0.015s, Elapsed time = 0h 0m 0.017s, Peak memory usage = 283.625MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 2: CPU time = 0h 0m 0.031s, Elapsed time = 0h 0m 0.06s, Peak memory usage = 283.625MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 3: CPU time = 0h 0m 0.015s, Elapsed time = 0h 0m 0.018s, Peak memory usage = 283.625MB<br/>Running technical mapping:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 0: CPU time = 0h 0m 0.531s, Elapsed time = 0h 0m 1s, Peak memory usage = 283.625MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 1: CPU time = 0h 0m 0.015s, Elapsed time = 0h 0m 0.166s, Peak memory usage = 283.625MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 2: CPU time = 0h 0m 0.093s, Elapsed time = 0h 0m 0.199s, Peak memory usage = 283.625MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 3: CPU time = 0h 0m 12s, Elapsed time = 0h 0m 23s, Peak memory usage = 283.625MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 4: CPU time = 0h 0m 0.171s, Elapsed time = 0h 0m 0.548s, Peak memory usage = 283.625MB<br/>Generate output files:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 0.015s, Elapsed time = 0h 0m 0.418s, Peak memory usage = 283.625MB<br/></td>
+</tr>
+<tr>
+<td class="label">Total Time and Memory Usage</td>
+<td>CPU time = 0h 0m 14s, Elapsed time = 0h 0m 28s, Peak memory usage = 283.625MB</td>
+</tr>
+</table>
+<h1><a name="resource">Resource</a></h1>
+<h2><a name="usage">Resource Usage Summary</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label"><b>Resource</b></td>
+<td><b>Usage</b></td>
+</tr>
+<tr>
+<td class="label"><b>I/O Port </b></td>
+<td>24</td>
+</tr>
+<tr>
+<td class="label"><b>I/O Buf </b></td>
+<td>22</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspIBUF</td>
+<td>6</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspOBUF</td>
+<td>12</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspTBUF</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspIOBUF</td>
+<td>2</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspELVDS_IOBUF</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="label"><b>Register </b></td>
+<td>2369</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFF</td>
+<td>99</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFE</td>
+<td>121</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFS</td>
+<td>13</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFSE</td>
+<td>40</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFR</td>
+<td>106</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFRE</td>
+<td>228</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFP</td>
+<td>19</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFPE</td>
+<td>22</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFC</td>
+<td>707</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFCE</td>
+<td>1010</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFNP</td>
+<td>4</td>
+</tr>
+<tr>
+<td class="label"><b>LUT </b></td>
+<td>5053</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspLUT2</td>
+<td>561</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspLUT3</td>
+<td>1491</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspLUT4</td>
+<td>3001</td>
+</tr>
+<tr>
+<td class="label"><b>ALU </b></td>
+<td>370</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspALU</td>
+<td>370</td>
+</tr>
+<tr>
+<td class="label"><b>SSRAM </b></td>
+<td>39</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspRAM16S4</td>
+<td>15</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspRAM16SDP4</td>
+<td>24</td>
+</tr>
+<tr>
+<td class="label"><b>INV </b></td>
+<td>22</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspINV</td>
+<td>22</td>
+</tr>
+<tr>
+<td class="label"><b>IOLOGIC </b></td>
+<td>7</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspIDES8</td>
+<td>4</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspOSER8</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspIODELAY</td>
+<td>2</td>
+</tr>
+<tr>
+<td class="label"><b>BSRAM </b></td>
+<td>10</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspSDPB</td>
+<td>9</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsppROM</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="label"><b>CLOCK </b></td>
+<td>5</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspCLKDIV</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDCS</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDHCEN</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsprPLL</td>
+<td>2</td>
+</tr>
+</table>
+<h2><a name="utilization">Resource Utilization Summary</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label"><b>Resource</b></td>
+<td><b>Usage</b></td>
+<td><b>Utilization</b></td>
+</tr>
+<tr>
+<td class="label">Logic</td>
+<td>5679(5075 LUTs, 370 ALUs, 39 SSRAMs) / 8640</td>
+<td>66%</td>
+</tr>
+<tr>
+<td class="label">Register</td>
+<td>2369 / 6843</td>
+<td>35%</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp--Register as Latch</td>
+<td>0 / 6843</td>
+<td>0%</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp--Register as FF</td>
+<td>2369 / 6843</td>
+<td>35%</td>
+</tr>
+<tr>
+<td class="label">BSRAM</td>
+<td>10 / 26</td>
+<td>39%</td>
+</tr>
+</table>
+<h1><a name="timing">Timing</a></h1>
+<h2><a name="clock">Clock Summary:</a></h2>
+<table class="summary_table">
+<tr>
+<th>Clock Name</th>
+<th>Type</th>
+<th>Period</th>
+<th>Frequency(MHz)</th>
+<th>Rise</th>
+<th>Fall</th>
+<th>Source</th>
+<th>Master</th>
+<th>Object</th>
+</tr>
+<tr>
+<td>CLK_IN</td>
+<td>Base</td>
+<td>83.333</td>
+<td>12.0</td>
+<td>0.000</td>
+<td>41.667</td>
+<td> </td>
+<td> </td>
+<td>CLK_IN_ibuf/I </td>
+</tr>
+<tr>
+<td>u_pll/rpll_inst/CLKOUT.default_gen_clk</td>
+<td>Generated</td>
+<td>2.083</td>
+<td>480.0</td>
+<td>0.000</td>
+<td>1.042</td>
+<td>CLK_IN_ibuf/I</td>
+<td>CLK_IN</td>
+<td>u_pll/rpll_inst/CLKOUT </td>
+</tr>
+<tr>
+<td>u_pll/rpll_inst/CLKOUTP.default_gen_clk</td>
+<td>Generated</td>
+<td>2.083</td>
+<td>480.0</td>
+<td>0.000</td>
+<td>1.042</td>
+<td>CLK_IN_ibuf/I</td>
+<td>CLK_IN</td>
+<td>u_pll/rpll_inst/CLKOUTP </td>
+</tr>
+<tr>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk</td>
+<td>Generated</td>
+<td>16.667</td>
+<td>60.0</td>
+<td>0.000</td>
+<td>8.333</td>
+<td>CLK_IN_ibuf/I</td>
+<td>CLK_IN</td>
+<td>u_pll/rpll_inst/CLKOUTD </td>
+</tr>
+<tr>
+<td>u_pll/rpll_inst/CLKOUTD3.default_gen_clk</td>
+<td>Generated</td>
+<td>6.250</td>
+<td>160.0</td>
+<td>0.000</td>
+<td>3.125</td>
+<td>CLK_IN_ibuf/I</td>
+<td>CLK_IN</td>
+<td>u_pll/rpll_inst/CLKOUTD3 </td>
+</tr>
+<tr>
+<td>u_iis_rPLL/rpll_inst/CLKIN.default_clk</td>
+<td>Base</td>
+<td>20.345</td>
+<td>49.2</td>
+<td>0.000</td>
+<td>10.173</td>
+<td> </td>
+<td> </td>
+<td>u_iis_rPLL/rpll_inst/CLKIN </td>
+</tr>
+<tr>
+<td>u_iis_rPLL/rpll_inst/CLKOUT.default_gen_clk</td>
+<td>Generated</td>
+<td>10.173</td>
+<td>98.3</td>
+<td>0.000</td>
+<td>5.086</td>
+<td>u_iis_rPLL/rpll_inst/CLKIN</td>
+<td>u_iis_rPLL/rpll_inst/CLKIN.default_clk</td>
+<td>u_iis_rPLL/rpll_inst/CLKOUT </td>
+</tr>
+<tr>
+<td>u_iis_rPLL/rpll_inst/CLKOUTP.default_gen_clk</td>
+<td>Generated</td>
+<td>10.173</td>
+<td>98.3</td>
+<td>0.000</td>
+<td>5.086</td>
+<td>u_iis_rPLL/rpll_inst/CLKIN</td>
+<td>u_iis_rPLL/rpll_inst/CLKIN.default_clk</td>
+<td>u_iis_rPLL/rpll_inst/CLKOUTP </td>
+</tr>
+<tr>
+<td>u_iis_rPLL/rpll_inst/CLKOUTD.default_gen_clk</td>
+<td>Generated</td>
+<td>20.345</td>
+<td>49.2</td>
+<td>0.000</td>
+<td>10.173</td>
+<td>u_iis_rPLL/rpll_inst/CLKIN</td>
+<td>u_iis_rPLL/rpll_inst/CLKIN.default_clk</td>
+<td>u_iis_rPLL/rpll_inst/CLKOUTD </td>
+</tr>
+<tr>
+<td>u_iis_rPLL/rpll_inst/CLKOUTD3.default_gen_clk</td>
+<td>Generated</td>
+<td>30.518</td>
+<td>32.8</td>
+<td>0.000</td>
+<td>15.259</td>
+<td>u_iis_rPLL/rpll_inst/CLKIN</td>
+<td>u_iis_rPLL/rpll_inst/CLKIN.default_clk</td>
+<td>u_iis_rPLL/rpll_inst/CLKOUTD3 </td>
+</tr>
+<tr>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/clkdiv_inst/CLKOUT.default_gen_clk</td>
+<td>Generated</td>
+<td>8.333</td>
+<td>120.0</td>
+<td>0.000</td>
+<td>4.167</td>
+<td>u_pll/rpll_inst/CLKOUT</td>
+<td>u_pll/rpll_inst/CLKOUT.default_gen_clk</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/clkdiv_inst/CLKOUT </td>
+</tr>
+</table>
+<h2><a name="performance">Max Frequency Summary:</a></h2>
+<table class="summary_table">
+<tr>
+<th>No.</th>
+<th>Clock Name</th>
+<th>Constraint</th>
+<th>Actual Fmax</th>
+<th>Logic Level</th>
+<th>Entity</th>
+</tr>
+<tr>
+<td>1</td>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk</td>
+<td>60.0(MHz)</td>
+<td>55.2(MHz)</td>
+<td>18</td>
+<td>TOP</td>
+</tr>
+<tr>
+<td>2</td>
+<td>u_iis_rPLL/rpll_inst/CLKOUT.default_gen_clk</td>
+<td>98.3(MHz)</td>
+<td>97.1(MHz)</td>
+<td>10</td>
+<td>TOP</td>
+</tr>
+<tr>
+<td>3</td>
+<td>u_iis_rPLL/rpll_inst/CLKOUTD.default_gen_clk</td>
+<td>49.2(MHz)</td>
+<td>132.0(MHz)</td>
+<td>8</td>
+<td>TOP</td>
+</tr>
+<tr>
+<td>4</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/clkdiv_inst/CLKOUT.default_gen_clk</td>
+<td>120.0(MHz)</td>
+<td>128.9(MHz)</td>
+<td>7</td>
+<td>TOP</td>
+</tr>
+</table>
+<h2><a name="detail timing">Detail Timing Paths Information</a></h2>
+<h3>Path&nbsp1</h3>
+<b>Path Summary:</b></br>
+<table class="summary_table">
+<tr>
+<td class="label">Slack</td>
+<td>-1.451</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time</td>
+<td>19.350</td>
+</tr>
+<tr>
+<td class="label">Data Required Time</td>
+<td>17.899</td>
+</tr>
+<tr>
+<td class="label">From</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_6_s1</td>
+</tr>
+<tr>
+<td class="label">To</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_17_s1</td>
+</tr>
+<tr>
+<td class="label">Launch Clk</td>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk[R]</td>
+</tr>
+<tr>
+<td class="label">Latch Clk</td>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk[R]</td>
+</tr>
+</table>
+<b>Data Arrival Path:</b>
+<table class="summary_table">
+<tr>
+<th>AT</th>
+<th>DELAY</th>
+<th>TYPE</th>
+<th>RF</th>
+<th>FANOUT</th>
+<th>NODE</th>
+</tr>
+<tr>
+<td>0.000</td>
+<td>0.000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk</td>
+</tr>
+<tr>
+<td>1.259</td>
+<td>1.259</td>
+<td>tCL</td>
+<td>RR</td>
+<td>1715</td>
+<td>u_pll/rpll_inst/CLKOUTD</td>
+</tr>
+<tr>
+<td>1.528</td>
+<td>0.269</td>
+<td>tNET</td>
+<td>RR</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_6_s1/CLK</td>
+</tr>
+<tr>
+<td>1.868</td>
+<td>0.340</td>
+<td>tC2Q</td>
+<td>RF</td>
+<td>4</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_6_s1/Q</td>
+</tr>
+<tr>
+<td>2.224</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n611_s2/I1</td>
+</tr>
+<tr>
+<td>3.038</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>3</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n611_s2/F</td>
+</tr>
+<tr>
+<td>3.394</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s4/I3</td>
+</tr>
+<tr>
+<td>3.858</td>
+<td>0.464</td>
+<td>tINS</td>
+<td>FF</td>
+<td>3</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s4/F</td>
+</tr>
+<tr>
+<td>4.213</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s3/I3</td>
+</tr>
+<tr>
+<td>4.677</td>
+<td>0.464</td>
+<td>tINS</td>
+<td>FF</td>
+<td>6</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s3/F</td>
+</tr>
+<tr>
+<td>5.033</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n724_s1/I1</td>
+</tr>
+<tr>
+<td>5.847</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>5</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n724_s1/F</td>
+</tr>
+<tr>
+<td>6.203</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n727_s3/I3</td>
+</tr>
+<tr>
+<td>6.667</td>
+<td>0.464</td>
+<td>tINS</td>
+<td>FF</td>
+<td>5</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n727_s3/F</td>
+</tr>
+<tr>
+<td>7.022</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s1/I2</td>
+</tr>
+<tr>
+<td>7.632</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>4</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s1/F</td>
+</tr>
+<tr>
+<td>7.987</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_0_s2/I2</td>
+</tr>
+<tr>
+<td>8.596</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>7</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_0_s2/F</td>
+</tr>
+<tr>
+<td>8.952</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n593_s/I1</td>
+</tr>
+<tr>
+<td>9.726</td>
+<td>0.774</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n593_s/COUT</td>
+</tr>
+<tr>
+<td>9.726</td>
+<td>0.000</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n592_s/CIN</td>
+</tr>
+<tr>
+<td>10.144</td>
+<td>0.417</td>
+<td>tINS</td>
+<td>FF</td>
+<td>2</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n592_s/SUM</td>
+</tr>
+<tr>
+<td>10.499</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n935_s9/I1</td>
+</tr>
+<tr>
+<td>11.314</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>6</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n935_s9/F</td>
+</tr>
+<tr>
+<td>11.669</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_17_s7/I0</td>
+</tr>
+<tr>
+<td>12.434</td>
+<td>0.765</td>
+<td>tINS</td>
+<td>FF</td>
+<td>4</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_17_s7/F</td>
+</tr>
+<tr>
+<td>12.790</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n897_s2/I1</td>
+</tr>
+<tr>
+<td>13.604</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>18</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n897_s2/F</td>
+</tr>
+<tr>
+<td>13.960</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1084_s8/I2</td>
+</tr>
+<tr>
+<td>14.569</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1084_s8/F</td>
+</tr>
+<tr>
+<td>14.924</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1084_s6/I2</td>
+</tr>
+<tr>
+<td>15.534</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1084_s6/F</td>
+</tr>
+<tr>
+<td>15.889</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1084_s4/I1</td>
+</tr>
+<tr>
+<td>16.704</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1084_s4/F</td>
+</tr>
+<tr>
+<td>17.059</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1084_s2/I0</td>
+</tr>
+<tr>
+<td>17.824</td>
+<td>0.765</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1084_s2/F</td>
+</tr>
+<tr>
+<td>18.180</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1084_s1/I1</td>
+</tr>
+<tr>
+<td>18.994</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1084_s1/F</td>
+</tr>
+<tr>
+<td>19.350</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_17_s1/D</td>
+</tr>
+</table>
+<b>Data Required Path:</b>
+<table class="summary_table">
+<tr>
+<th>AT</th>
+<th>DELAY</th>
+<th>TYPE</th>
+<th>RF</th>
+<th>FANOUT</th>
+<th>NODE</th>
+</tr>
+<tr>
+<td>16.667</td>
+<td>0.000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk</td>
+</tr>
+<tr>
+<td>17.926</td>
+<td>1.259</td>
+<td>tCL</td>
+<td>RR</td>
+<td>1715</td>
+<td>u_pll/rpll_inst/CLKOUTD</td>
+</tr>
+<tr>
+<td>18.195</td>
+<td>0.269</td>
+<td>tNET</td>
+<td>RR</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_17_s1/CLK</td>
+</tr>
+<tr>
+<td>17.899</td>
+<td>-0.296</td>
+<td>tSu</td>
+<td> </td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_17_s1</td>
+</tr>
+</table>
+<b>Path Statistics:</b>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>16.667</td>
+</tr>
+<tr>
+<td class="label">Logic Level:</td>
+<td>18</td>
+</tr>
+<tr>
+<td class="label">Arrival Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.269, 100.000%</td></tr>
+<tr>
+<td class="label">Arrival Data Path Delay:</td><td> cell: 11.435, 64.165%; route: 6.047, 33.929%; tC2Q: 0.340, 1.906%</td></tr>
+<tr>
+<td class="label">Required Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.269, 100.000%</td></tr>
+</table>
+<br/>
+<h3>Path&nbsp2</h3>
+<b>Path Summary:</b></br>
+<table class="summary_table">
+<tr>
+<td class="label">Slack</td>
+<td>-1.401</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time</td>
+<td>19.300</td>
+</tr>
+<tr>
+<td class="label">Data Required Time</td>
+<td>17.899</td>
+</tr>
+<tr>
+<td class="label">From</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_6_s1</td>
+</tr>
+<tr>
+<td class="label">To</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_15_s1</td>
+</tr>
+<tr>
+<td class="label">Launch Clk</td>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk[R]</td>
+</tr>
+<tr>
+<td class="label">Latch Clk</td>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk[R]</td>
+</tr>
+</table>
+<b>Data Arrival Path:</b>
+<table class="summary_table">
+<tr>
+<th>AT</th>
+<th>DELAY</th>
+<th>TYPE</th>
+<th>RF</th>
+<th>FANOUT</th>
+<th>NODE</th>
+</tr>
+<tr>
+<td>0.000</td>
+<td>0.000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk</td>
+</tr>
+<tr>
+<td>1.259</td>
+<td>1.259</td>
+<td>tCL</td>
+<td>RR</td>
+<td>1715</td>
+<td>u_pll/rpll_inst/CLKOUTD</td>
+</tr>
+<tr>
+<td>1.528</td>
+<td>0.269</td>
+<td>tNET</td>
+<td>RR</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_6_s1/CLK</td>
+</tr>
+<tr>
+<td>1.868</td>
+<td>0.340</td>
+<td>tC2Q</td>
+<td>RF</td>
+<td>4</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_6_s1/Q</td>
+</tr>
+<tr>
+<td>2.224</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n611_s2/I1</td>
+</tr>
+<tr>
+<td>3.038</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>3</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n611_s2/F</td>
+</tr>
+<tr>
+<td>3.394</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s4/I3</td>
+</tr>
+<tr>
+<td>3.858</td>
+<td>0.464</td>
+<td>tINS</td>
+<td>FF</td>
+<td>3</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s4/F</td>
+</tr>
+<tr>
+<td>4.213</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s3/I3</td>
+</tr>
+<tr>
+<td>4.677</td>
+<td>0.464</td>
+<td>tINS</td>
+<td>FF</td>
+<td>6</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s3/F</td>
+</tr>
+<tr>
+<td>5.033</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n724_s1/I1</td>
+</tr>
+<tr>
+<td>5.847</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>5</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n724_s1/F</td>
+</tr>
+<tr>
+<td>6.203</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n727_s3/I3</td>
+</tr>
+<tr>
+<td>6.667</td>
+<td>0.464</td>
+<td>tINS</td>
+<td>FF</td>
+<td>5</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n727_s3/F</td>
+</tr>
+<tr>
+<td>7.022</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s1/I2</td>
+</tr>
+<tr>
+<td>7.632</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>4</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s1/F</td>
+</tr>
+<tr>
+<td>7.987</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_0_s2/I2</td>
+</tr>
+<tr>
+<td>8.596</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>7</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_0_s2/F</td>
+</tr>
+<tr>
+<td>8.952</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n593_s/I1</td>
+</tr>
+<tr>
+<td>9.726</td>
+<td>0.774</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n593_s/COUT</td>
+</tr>
+<tr>
+<td>9.726</td>
+<td>0.000</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n592_s/CIN</td>
+</tr>
+<tr>
+<td>10.144</td>
+<td>0.417</td>
+<td>tINS</td>
+<td>FF</td>
+<td>2</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n592_s/SUM</td>
+</tr>
+<tr>
+<td>10.499</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n935_s9/I1</td>
+</tr>
+<tr>
+<td>11.314</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>6</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n935_s9/F</td>
+</tr>
+<tr>
+<td>11.669</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_17_s7/I0</td>
+</tr>
+<tr>
+<td>12.434</td>
+<td>0.765</td>
+<td>tINS</td>
+<td>FF</td>
+<td>4</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_17_s7/F</td>
+</tr>
+<tr>
+<td>12.790</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n897_s2/I1</td>
+</tr>
+<tr>
+<td>13.604</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>18</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n897_s2/F</td>
+</tr>
+<tr>
+<td>13.960</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1086_s6/I2</td>
+</tr>
+<tr>
+<td>14.569</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1086_s6/F</td>
+</tr>
+<tr>
+<td>14.924</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1086_s5/I2</td>
+</tr>
+<tr>
+<td>15.534</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1086_s5/F</td>
+</tr>
+<tr>
+<td>15.889</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1086_s4/I0</td>
+</tr>
+<tr>
+<td>16.654</td>
+<td>0.765</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1086_s4/F</td>
+</tr>
+<tr>
+<td>17.010</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1086_s2/I1</td>
+</tr>
+<tr>
+<td>17.824</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1086_s2/F</td>
+</tr>
+<tr>
+<td>18.180</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1086_s1/I0</td>
+</tr>
+<tr>
+<td>18.944</td>
+<td>0.765</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1086_s1/F</td>
+</tr>
+<tr>
+<td>19.300</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_15_s1/D</td>
+</tr>
+</table>
+<b>Data Required Path:</b>
+<table class="summary_table">
+<tr>
+<th>AT</th>
+<th>DELAY</th>
+<th>TYPE</th>
+<th>RF</th>
+<th>FANOUT</th>
+<th>NODE</th>
+</tr>
+<tr>
+<td>16.667</td>
+<td>0.000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk</td>
+</tr>
+<tr>
+<td>17.926</td>
+<td>1.259</td>
+<td>tCL</td>
+<td>RR</td>
+<td>1715</td>
+<td>u_pll/rpll_inst/CLKOUTD</td>
+</tr>
+<tr>
+<td>18.195</td>
+<td>0.269</td>
+<td>tNET</td>
+<td>RR</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_15_s1/CLK</td>
+</tr>
+<tr>
+<td>17.899</td>
+<td>-0.296</td>
+<td>tSu</td>
+<td> </td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_15_s1</td>
+</tr>
+</table>
+<b>Path Statistics:</b>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>16.667</td>
+</tr>
+<tr>
+<td class="label">Logic Level:</td>
+<td>18</td>
+</tr>
+<tr>
+<td class="label">Arrival Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.269, 100.000%</td></tr>
+<tr>
+<td class="label">Arrival Data Path Delay:</td><td> cell: 11.385, 64.065%; route: 6.047, 34.024%; tC2Q: 0.340, 1.911%</td></tr>
+<tr>
+<td class="label">Required Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.269, 100.000%</td></tr>
+</table>
+<br/>
+<h3>Path&nbsp3</h3>
+<b>Path Summary:</b></br>
+<table class="summary_table">
+<tr>
+<td class="label">Slack</td>
+<td>-1.401</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time</td>
+<td>19.300</td>
+</tr>
+<tr>
+<td class="label">Data Required Time</td>
+<td>17.899</td>
+</tr>
+<tr>
+<td class="label">From</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_6_s1</td>
+</tr>
+<tr>
+<td class="label">To</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_16_s1</td>
+</tr>
+<tr>
+<td class="label">Launch Clk</td>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk[R]</td>
+</tr>
+<tr>
+<td class="label">Latch Clk</td>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk[R]</td>
+</tr>
+</table>
+<b>Data Arrival Path:</b>
+<table class="summary_table">
+<tr>
+<th>AT</th>
+<th>DELAY</th>
+<th>TYPE</th>
+<th>RF</th>
+<th>FANOUT</th>
+<th>NODE</th>
+</tr>
+<tr>
+<td>0.000</td>
+<td>0.000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk</td>
+</tr>
+<tr>
+<td>1.259</td>
+<td>1.259</td>
+<td>tCL</td>
+<td>RR</td>
+<td>1715</td>
+<td>u_pll/rpll_inst/CLKOUTD</td>
+</tr>
+<tr>
+<td>1.528</td>
+<td>0.269</td>
+<td>tNET</td>
+<td>RR</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_6_s1/CLK</td>
+</tr>
+<tr>
+<td>1.868</td>
+<td>0.340</td>
+<td>tC2Q</td>
+<td>RF</td>
+<td>4</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_6_s1/Q</td>
+</tr>
+<tr>
+<td>2.224</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n611_s2/I1</td>
+</tr>
+<tr>
+<td>3.038</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>3</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n611_s2/F</td>
+</tr>
+<tr>
+<td>3.394</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s4/I3</td>
+</tr>
+<tr>
+<td>3.858</td>
+<td>0.464</td>
+<td>tINS</td>
+<td>FF</td>
+<td>3</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s4/F</td>
+</tr>
+<tr>
+<td>4.213</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s3/I3</td>
+</tr>
+<tr>
+<td>4.677</td>
+<td>0.464</td>
+<td>tINS</td>
+<td>FF</td>
+<td>6</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s3/F</td>
+</tr>
+<tr>
+<td>5.033</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n724_s1/I1</td>
+</tr>
+<tr>
+<td>5.847</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>5</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n724_s1/F</td>
+</tr>
+<tr>
+<td>6.203</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n727_s3/I3</td>
+</tr>
+<tr>
+<td>6.667</td>
+<td>0.464</td>
+<td>tINS</td>
+<td>FF</td>
+<td>5</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n727_s3/F</td>
+</tr>
+<tr>
+<td>7.022</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s1/I2</td>
+</tr>
+<tr>
+<td>7.632</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>4</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_1_s1/F</td>
+</tr>
+<tr>
+<td>7.987</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_0_s2/I2</td>
+</tr>
+<tr>
+<td>8.596</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>7</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/w_offset_inc_0_s2/F</td>
+</tr>
+<tr>
+<td>8.952</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n593_s/I1</td>
+</tr>
+<tr>
+<td>9.726</td>
+<td>0.774</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n593_s/COUT</td>
+</tr>
+<tr>
+<td>9.726</td>
+<td>0.000</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n592_s/CIN</td>
+</tr>
+<tr>
+<td>10.144</td>
+<td>0.417</td>
+<td>tINS</td>
+<td>FF</td>
+<td>2</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n592_s/SUM</td>
+</tr>
+<tr>
+<td>10.499</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n935_s9/I1</td>
+</tr>
+<tr>
+<td>11.314</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>6</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n935_s9/F</td>
+</tr>
+<tr>
+<td>11.669</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_17_s7/I0</td>
+</tr>
+<tr>
+<td>12.434</td>
+<td>0.765</td>
+<td>tINS</td>
+<td>FF</td>
+<td>4</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_17_s7/F</td>
+</tr>
+<tr>
+<td>12.790</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n897_s2/I1</td>
+</tr>
+<tr>
+<td>13.604</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>18</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n897_s2/F</td>
+</tr>
+<tr>
+<td>13.960</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1085_s7/I2</td>
+</tr>
+<tr>
+<td>14.569</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1085_s7/F</td>
+</tr>
+<tr>
+<td>14.924</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1085_s5/I2</td>
+</tr>
+<tr>
+<td>15.534</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1085_s5/F</td>
+</tr>
+<tr>
+<td>15.889</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1085_s4/I0</td>
+</tr>
+<tr>
+<td>16.654</td>
+<td>0.765</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1085_s4/F</td>
+</tr>
+<tr>
+<td>17.010</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1085_s2/I1</td>
+</tr>
+<tr>
+<td>17.824</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1085_s2/F</td>
+</tr>
+<tr>
+<td>18.180</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1085_s1/I0</td>
+</tr>
+<tr>
+<td>18.944</td>
+<td>0.765</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/n1085_s1/F</td>
+</tr>
+<tr>
+<td>19.300</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_16_s1/D</td>
+</tr>
+</table>
+<b>Data Required Path:</b>
+<table class="summary_table">
+<tr>
+<th>AT</th>
+<th>DELAY</th>
+<th>TYPE</th>
+<th>RF</th>
+<th>FANOUT</th>
+<th>NODE</th>
+</tr>
+<tr>
+<td>16.667</td>
+<td>0.000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk</td>
+</tr>
+<tr>
+<td>17.926</td>
+<td>1.259</td>
+<td>tCL</td>
+<td>RR</td>
+<td>1715</td>
+<td>u_pll/rpll_inst/CLKOUTD</td>
+</tr>
+<tr>
+<td>18.195</td>
+<td>0.269</td>
+<td>tNET</td>
+<td>RR</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_16_s1/CLK</td>
+</tr>
+<tr>
+<td>17.899</td>
+<td>-0.296</td>
+<td>tSu</td>
+<td> </td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/i_rx_phy/q_w_data_19_16_s1</td>
+</tr>
+</table>
+<b>Path Statistics:</b>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>16.667</td>
+</tr>
+<tr>
+<td class="label">Logic Level:</td>
+<td>18</td>
+</tr>
+<tr>
+<td class="label">Arrival Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.269, 100.000%</td></tr>
+<tr>
+<td class="label">Arrival Data Path Delay:</td><td> cell: 11.385, 64.065%; route: 6.047, 34.024%; tC2Q: 0.340, 1.911%</td></tr>
+<tr>
+<td class="label">Required Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.269, 100.000%</td></tr>
+</table>
+<br/>
+<h3>Path&nbsp4</h3>
+<b>Path Summary:</b></br>
+<table class="summary_table">
+<tr>
+<td class="label">Slack</td>
+<td>-0.128</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time</td>
+<td>10.273</td>
+</tr>
+<tr>
+<td class="label">Data Required Time</td>
+<td>10.145</td>
+</tr>
+<tr>
+<td class="label">From</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/bclk_cnt_0_s1</td>
+</tr>
+<tr>
+<td class="label">To</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/cur_state_0_s0</td>
+</tr>
+<tr>
+<td class="label">Launch Clk</td>
+<td>u_iis_rPLL/rpll_inst/CLKOUT.default_gen_clk[R]</td>
+</tr>
+<tr>
+<td class="label">Latch Clk</td>
+<td>u_iis_rPLL/rpll_inst/CLKOUT.default_gen_clk[R]</td>
+</tr>
+</table>
+<b>Data Arrival Path:</b>
+<table class="summary_table">
+<tr>
+<th>AT</th>
+<th>DELAY</th>
+<th>TYPE</th>
+<th>RF</th>
+<th>FANOUT</th>
+<th>NODE</th>
+</tr>
+<tr>
+<td>0.000</td>
+<td>0.000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>u_iis_rPLL/rpll_inst/CLKOUT.default_gen_clk</td>
+</tr>
+<tr>
+<td>0.000</td>
+<td>0.000</td>
+<td>tCL</td>
+<td>RR</td>
+<td>494</td>
+<td>u_iis_rPLL/rpll_inst/CLKOUT</td>
+</tr>
+<tr>
+<td>0.269</td>
+<td>0.269</td>
+<td>tNET</td>
+<td>RR</td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/bclk_cnt_0_s1/CLK</td>
+</tr>
+<tr>
+<td>0.609</td>
+<td>0.340</td>
+<td>tC2Q</td>
+<td>RF</td>
+<td>6</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/bclk_cnt_0_s1/Q</td>
+</tr>
+<tr>
+<td>0.964</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/n261_s4/I1</td>
+</tr>
+<tr>
+<td>1.779</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>4</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/n261_s4/F</td>
+</tr>
+<tr>
+<td>2.134</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/n259_s3/I2</td>
+</tr>
+<tr>
+<td>2.743</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>3</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/n259_s3/F</td>
+</tr>
+<tr>
+<td>3.099</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/n257_s3/I2</td>
+</tr>
+<tr>
+<td>3.708</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>3</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/n257_s3/F</td>
+</tr>
+<tr>
+<td>4.064</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/n255_s3/I2</td>
+</tr>
+<tr>
+<td>4.673</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>3</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/n255_s3/F</td>
+</tr>
+<tr>
+<td>5.029</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/n265_s4/I0</td>
+</tr>
+<tr>
+<td>5.793</td>
+<td>0.765</td>
+<td>tINS</td>
+<td>FF</td>
+<td>2</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/n265_s4/F</td>
+</tr>
+<tr>
+<td>6.149</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/next_state_1_s2/I1</td>
+</tr>
+<tr>
+<td>6.963</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>3</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/next_state_1_s2/F</td>
+</tr>
+<tr>
+<td>7.319</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/next_state_0_s4/I1</td>
+</tr>
+<tr>
+<td>8.133</td>
+<td>0.814</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/next_state_0_s4/F</td>
+</tr>
+<tr>
+<td>8.489</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/next_state_0_s2/I3</td>
+</tr>
+<tr>
+<td>8.953</td>
+<td>0.464</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/next_state_0_s2/F</td>
+</tr>
+<tr>
+<td>9.309</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/next_state_0_s1/I2</td>
+</tr>
+<tr>
+<td>9.918</td>
+<td>0.609</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/next_state_0_s1/F</td>
+</tr>
+<tr>
+<td>10.273</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/cur_state_0_s0/D</td>
+</tr>
+</table>
+<b>Data Required Path:</b>
+<table class="summary_table">
+<tr>
+<th>AT</th>
+<th>DELAY</th>
+<th>TYPE</th>
+<th>RF</th>
+<th>FANOUT</th>
+<th>NODE</th>
+</tr>
+<tr>
+<td>10.173</td>
+<td>0.000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>u_iis_rPLL/rpll_inst/CLKOUT.default_gen_clk</td>
+</tr>
+<tr>
+<td>10.173</td>
+<td>0.000</td>
+<td>tCL</td>
+<td>RR</td>
+<td>494</td>
+<td>u_iis_rPLL/rpll_inst/CLKOUT</td>
+</tr>
+<tr>
+<td>10.442</td>
+<td>0.269</td>
+<td>tNET</td>
+<td>RR</td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/cur_state_0_s0/CLK</td>
+</tr>
+<tr>
+<td>10.145</td>
+<td>-0.296</td>
+<td>tSu</td>
+<td> </td>
+<td>1</td>
+<td>MIC_CLK_GEN_inst/iis_gen_inst/cur_state_0_s0</td>
+</tr>
+</table>
+<b>Path Statistics:</b>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>10.173</td>
+</tr>
+<tr>
+<td class="label">Logic Level:</td>
+<td>10</td>
+</tr>
+<tr>
+<td class="label">Arrival Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.269, 100.000%</td></tr>
+<tr>
+<td class="label">Arrival Data Path Delay:</td><td> cell: 6.108, 61.053%; route: 3.557, 35.552%; tC2Q: 0.340, 3.395%</td></tr>
+<tr>
+<td class="label">Required Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.269, 100.000%</td></tr>
+</table>
+<br/>
+<h3>Path&nbsp5</h3>
+<b>Path Summary:</b></br>
+<table class="summary_table">
+<tr>
+<td class="label">Slack</td>
+<td>0.258</td>
+</tr>
+<tr>
+<td class="label">Data Arrival Time</td>
+<td>2.224</td>
+</tr>
+<tr>
+<td class="label">Data Required Time</td>
+<td>2.482</td>
+</tr>
+<tr>
+<td class="label">From</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/u_oser_rst/reset_stop_s2</td>
+</tr>
+<tr>
+<td class="label">To</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/dhcen_inst</td>
+</tr>
+<tr>
+<td class="label">Launch Clk</td>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk[F]</td>
+</tr>
+<tr>
+<td class="label">Latch Clk</td>
+<td>u_pll/rpll_inst/CLKOUT.default_gen_clk[R]</td>
+</tr>
+</table>
+<b>Data Arrival Path:</b>
+<table class="summary_table">
+<tr>
+<th>AT</th>
+<th>DELAY</th>
+<th>TYPE</th>
+<th>RF</th>
+<th>FANOUT</th>
+<th>NODE</th>
+</tr>
+<tr>
+<td>0.000</td>
+<td>0.000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>u_pll/rpll_inst/CLKOUTD.default_gen_clk</td>
+</tr>
+<tr>
+<td>1.259</td>
+<td>1.259</td>
+<td>tCL</td>
+<td>RR</td>
+<td>1715</td>
+<td>u_pll/rpll_inst/CLKOUTD</td>
+</tr>
+<tr>
+<td>1.528</td>
+<td>0.269</td>
+<td>tNET</td>
+<td>RR</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/u_oser_rst/reset_stop_s2/CLK</td>
+</tr>
+<tr>
+<td>1.868</td>
+<td>0.340</td>
+<td>tC2Q</td>
+<td>RF</td>
+<td>2</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/u_oser_rst/reset_stop_s2/Q</td>
+</tr>
+<tr>
+<td>2.224</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/dhcen_inst/CE</td>
+</tr>
+</table>
+<b>Data Required Path:</b>
+<table class="summary_table">
+<tr>
+<th>AT</th>
+<th>DELAY</th>
+<th>TYPE</th>
+<th>RF</th>
+<th>FANOUT</th>
+<th>NODE</th>
+</tr>
+<tr>
+<td>1.042</td>
+<td>0.000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>u_pll/rpll_inst/CLKOUT.default_gen_clk</td>
+</tr>
+<tr>
+<td>2.344</td>
+<td>1.302</td>
+<td>tCL</td>
+<td>FF</td>
+<td>1</td>
+<td>u_pll/rpll_inst/CLKOUT</td>
+</tr>
+<tr>
+<td>2.700</td>
+<td>0.356</td>
+<td>tNET</td>
+<td>FF</td>
+<td>3</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/dhcen_inst/CLKIN</td>
+</tr>
+<tr>
+<td>2.670</td>
+<td>-0.030</td>
+<td>tUnc</td>
+<td> </td>
+<td> </td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/dhcen_inst</td>
+</tr>
+<tr>
+<td>2.482</td>
+<td>-0.188</td>
+<td>tSu</td>
+<td> </td>
+<td>1</td>
+<td>u_USB_SoftPHY_Top/usb2_0_softphy/u_usb_20_phy_utmi/u_usb2_0_softphy/u_usb_phy_hs/dhcen_inst</td>
+</tr>
+</table>
+<b>Path Statistics:</b>
+<table class="summary_table">
+<tr>
+<td class="label">Clock Skew:</td>
+<td>0.130</td>
+</tr>
+<tr>
+<td class="label">Setup Relationship:</td>
+<td>1.042</td>
+</tr>
+<tr>
+<td class="label">Logic Level:</td>
+<td>1</td>
+</tr>
+<tr>
+<td class="label">Arrival Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.269, 100.000%</td></tr>
+<tr>
+<td class="label">Arrival Data Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.356, 51.155%; tC2Q: 0.340, 48.845%</td></tr>
+<tr>
+<td class="label">Required Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.269, 100.000%</td></tr>
+</table>
+<br/>
+</div><!-- content -->
+</div><!-- main_wrapper -->
+</body>
+</html>

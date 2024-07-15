@@ -1,0 +1,16 @@
+-d C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\impl\gwsynthesis\usbAudio.vg
+-p GW1N-9C-LQFP144-7
+-pn GW1N-LV9LQ144C7/I6
+-cst C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb2Audio.cst
+-cfg C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\impl\pnr\device.cfg
+-sdc C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb2Audio.sdc
+-bit
+-tr
+-ph
+-posp
+-timing
+-cst_error
+-place_option 1
+-route_option 2
+-correct_hold 1
+-route_maxfan 23

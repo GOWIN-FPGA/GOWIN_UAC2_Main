@@ -1,0 +1,90 @@
+{
+ "Device" : "GW1N-9C",
+ "Files" : [
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/async_fifo/async_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/fifo_sc_top/fifo_sc_8x1024.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/gowin_dcs/gowin_dcs.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/iis_rpll/gowin_rpll/iis_rPLL.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/sync_fifo/sync_rx_pkt_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/sync_fifo/sync_tx_pkt_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/uac_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/usb_audio_descriptor.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/usb_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/usb_controller/usb_device_controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/usb_controller/usb_device_controller_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/usb_softphy/usb2_0_softphy.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/usb_softphy/usb2_0_softphy_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/MIC_CLK_GEN.vo",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/audio_rx.vo",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/audio_tx.vo",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/uac/iis_gen.vo",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+  "src/usb_softphy",
+  "src/usb_controller"
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_2008"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1N-9C" package="LQFP144" speed="7" partNumber="GW1N-LV9LQ144C7/I6"/>
+    <FileList>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\async_fifo\async_fifo.v" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\fifo_sc_top\fifo_sc_8x1024.v" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\gowin_dcs\gowin_dcs.v" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\gowin_rpll\gowin_rpll.v" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\iis_rpll\gowin_rpll\iis_rPLL.v" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\sync_fifo\sync_rx_pkt_fifo.v" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\sync_fifo\sync_tx_pkt_fifo.v" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\top.v" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\uac_ctrl.v" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_audio_descriptor.v" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\usb_fifo.v" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller.v" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_controller\usb_device_controller_top.v" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy.v" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\usb_softphy\usb2_0_softphy_top.v" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\MIC_CLK_GEN.vo" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\audio_rx.vo" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\audio_tx.vo" type="verilog"/>
+        <File path="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\src\uac\iis_gen.vo" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="include_path" value="C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/usb_controller"/>
+        <Option type="include_path" value="C:/GOWIN/Engineering/GOWIN_Designs/GOWIN_UAC2/GOWIN_UAC2_Demos_21Jul2023/UAC_GW1N_REF_V2R1/prj/src/usb_softphy"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\GOWIN\Engineering\GOWIN_Designs\GOWIN_UAC2\GOWIN_UAC2_Demos_21Jul2023\UAC_GW1N_REF_V2R1\prj\impl\gwsynthesis\usbAudio.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="top"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-2008"/>
+    </OptionList>
+</Project>
