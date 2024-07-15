@@ -1,0 +1,12 @@
+[General]
+ipc_version=4
+file=gowin_ram_3072x32
+module=Gowin_RAM16S
+target_device=gw2an55c-000
+type=ssram_ram16s
+version=1.0
+
+[Config]
+DEPTH=3072
+LANG=0
+WIDTH=32
