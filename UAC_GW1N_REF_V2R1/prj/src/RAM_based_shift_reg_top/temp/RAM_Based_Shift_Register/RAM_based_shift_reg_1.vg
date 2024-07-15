@@ -1,0 +1,84 @@
+//
+//Written by GowinSynthesis
+//Product Version "V1.9.9 Beta3"
+//Sat Apr 01 17:52:21 2023
+
+//Source file index table:
+//file0 "\D:/Gowin/Gowin_V1.9.9Beta3/IDE/ipcore/RAMBasedShiftRegister/data/RAM_based_shift_reg_top.v"
+//file1 "\D:/Gowin/Gowin_V1.9.9Beta3/IDE/ipcore/RAMBasedShiftRegister/data/RAM_based_shift_reg.v"
+`timescale 100 ps/100 ps
+`pragma protect begin_protected
+`pragma protect version="2.2"
+`pragma protect author="default"
+`pragma protect author_info="default"
+`pragma protect encrypt_agent="GOWIN"
+`pragma protect encrypt_agent_info="GOWIN Encrypt Version 2.2"
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=256)
+`pragma protect key_keyowner="GOWIN",key_keyname="GWK2022-10",key_method="rsa"
+`pragma protect key_block
+LY/uytBfC19odPPwsKThu5Qd5U6S3wJO1azV7aH58XIpdtlhRPGTBndwEBlwQ2/SLgZSIo5xKrDu
++OGvAoUHbAS7MHClkmSJasatybTLF1dmAmdPDHILiILO+2uWsyAIdG+DM0/4+CO60E5t0uQvJOfi
+MCZSc41VjA+65Yg/3x9WMCbjR10J1IDSc/kH9FLgPlmwJTsn15Csv5ZxvJsmRaGJTSfVTirvZU/Q
+2mT2tnBwMJOBKk5TjZlFm8BFis89O9s5qoYhOd5tD9/OpxFvbbX3maRwgIqD8BY1bURp8fZ7cekm
+fCDih29YnGejjWzlsFPaRlGKisdOI5xTtPOtIA==
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=1360)
+`pragma protect data_keyowner="default-ip-vendor"
+`pragma protect data_keyname="default-ip-key"
+`pragma protect data_method="aes128-cbc"
+`pragma protect data_block
+2codI8HGSHxjFfvHloTb5rlPpq2cjTCrUj8PH4j0H6SokFxYg5IkBezG4j2KhqLN6m7VCB1K9Yy2
+bHB8YhY8h97B8SazQ5UvJPGJUN2/4rc5IJ7azt0bulwBDUXLp011tJMa1FAyvCP2urRuu/aRZ4tw
+N6TzxNuiGVGDIRpqFA5NxHr7k3lbQU0ckyOCpry0tQ2AaHX925E5/xVWMzkwzfcLmw2owxs0gdex
+BdhKqfgjUUC4zMJDbqW3DeyB8CLTRSuwDl4hiw//mTOPpcFzr5C9UQwtVVHsBCDAT+OwT4pdVkD1
++JgV2hqgWgBlzE++7/wmaffMkF3Als5zMc22yNOzzLY6PRQMwbtP1H4Y/HL7dnOgPiBNBFzXXxqq
+bGCZw8nh4pbF367cw3NSsmmlI7TpxuaS/4dGQFJQUM5yRgEs47EPUVF91bg5MZgMOLLc6Ry0tidX
+Gkj8nsZVwiy+w+m92TBuklivUp+N9/UV3W8osvox65zIzowG7ef9SskZkgn3wXaxJA1x0KpxJaFj
+GL0CqBzytuKqDtm7Bdn2Vgd5eg/lk7BVlvtXKyCwB1VP7q9LwhgjFRTo461KherNK1XtAKuLsS8s
+E7Z1PDbYKbEzAcfkqviwV5PjIiojV2eYSZT6W7ewEy6QTEJ6q0aUua29ZGILKj4FUtg1OI2a4YUJ
+RVwnpVCwTBXg5/5BgcruUgAokAIlFxBivot09E06T0rc9WSsMSLuCy7XjduLFzx8car64B4ucEyc
+AnSxn+58D4uJNK1+/VkI0AEc47c/GF4XSK9WTFfn97th+auXfE+Pgof103YmUa78qm3OTf8BaWGd
+5sfZ2vBS88vWZvT1e9V2ZPPn4vTKHL4Q4fJs1LDS9P/A4ZCzQP3Z1SEHjkxTDkj/oDuvgeyBRTRm
+jUVOl+FqWzkIfJJULqg7O1asEEY1QNCkuh++CCjRBKU0x+zWNDZqD80yYMUr9Ku8OUXK4W1Q8wrd
+rOwfNDnwSTnG3ZrSZwcjQekqTmwHZ3Tytzj5UQBHtj8TaDlpcXccqbSF+tmqpQznrJsutTOzxOwg
+Qp0vCi3GDs9fT1OW44ai+H2i88+YcP7rei/7t7RXnMEB01zf3OBfxEEvXsGsxdQ/wRk50iUVn28K
+5HCcsDm0GQjbD88Vb9EuzVPssgj/Kwi46U3b4r8qiefQ1jIeiaW9HCCodiBYaF7pdeD7CIA+KMPe
+9Bzq+iKkvE+XR7btWpAOyuqzSn1HcSdVV4r0yHrByfk3HfJ/UQJjOgHOy/MYmKKqEumT9FMFVT1k
+/O7LrXt7vtF1BK+h/fnhKFRSkyXZ1+ctHQWmDVHoAWWgRJiceiYDxpPgrpOMx5qluyXrZGquQ5jE
+hpPnOkZRXvV4zzg0pTi+VIW73y1kLmMFwupFyaxlyV1nMc7bpar6casHettOSjM953zyKyW6ZCF3
+cs6NjtS1yvDDZLWkNqpydVoVMizHG971YhVz6DnnhhBP+safWOeiNoMu3RNiXjdONPHzS/3OrMtL
+6O0hjFbwPoQYz+FfaXQnOS3nXn6O6ax9ZZO7jyP76jI0uphROCanVvI7/1upTJwXeJ+DTpf7mLkW
+JQJzDsVgRaKd+Pdq42pSZGBxAqLMDl2cB4ShAqQlL0AfltSnZGxlxW0FX+HscDM6pcKJnPrslGQM
+HwdRqcRIUHGyzua15v+IUiwfl1yUGbwPkdqhrgrBXxYJchbBLiEXkWQDBOf9t/UCqACXkTHjqhJC
+mo97B/kcEGAtlRYyjHRPBGJ5hLOAztqR4DI72ZEN5AqFIAATyamc/Mo6crK190AeGA==
+`pragma protect end_protected
+module RAM_based_shift_reg_1 (
+  clk,
+  Reset,
+  Din,
+  Q
+)
+;
+input clk;
+input Reset;
+input [0:0] Din;
+output [0:0] Q;
+wire VCC;
+wire GND;
+  \~RAM_based_shift_reg.RAM_based_shift_reg_1  u_RAM_based_shift_reg (
+    .clk(clk),
+    .Reset(Reset),
+    .Din(Din[0]),
+    .Q(Q[0])
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* RAM_based_shift_reg_1 */

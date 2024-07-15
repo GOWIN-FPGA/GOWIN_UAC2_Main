@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1N-9C" package="LQFP144" speed="7" partNumber="GW1N-LV9LQ144C7/I6"/>
+    <FileList>
+        <File path="D:/Gowin/Gowin_V1.9.9Beta3/IDE/ipcore/RAMBasedShiftRegister/data/RAM_based_shift_reg_top.v" type="verilog"/>
+        <File path="D:/Gowin/Gowin_V1.9.9Beta3/IDE/ipcore/RAMBasedShiftRegister/data/RAM_based_shift_reg.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="include_path" value="D:/Gowin/Gowin_V1.9.9Beta3/IDE/ipcore/RAMBasedShiftRegister/data"/>
+        <Option type="include_path" value="E:/WORK/UAC_DEMO/UAC_GW1N_LP_ALL_FRE_DEP_V1_TEST_FRAC/prj/src/RAM_based_shift_reg_top/temp/RAM_Based_Shift_Register"/>
+        <Option type="output_file" value="RAM_based_shift_reg_1.vg"/>
+        <Option type="output_template" value="RAM_based_shift_reg_1_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>

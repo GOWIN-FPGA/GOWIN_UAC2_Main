@@ -1,0 +1,162 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="phy_clkout" trig_type="0" storage_depth="1024" window_num="1" capture_amount="1024" trigger_pos="500" module_name="top" force_trigger_by_falling_edge="false">
+        <SignalList>
+            <Bus name="usb_fifo/usb_tx_buf_ep2/pkt_fifo_wr_num[10:0]">
+                <Signal>usb_fifo/usb_tx_buf_ep2/pkt_fifo_wr_num[10]</Signal>
+                <Signal>usb_fifo/usb_tx_buf_ep2/pkt_fifo_wr_num[9]</Signal>
+                <Signal>usb_fifo/usb_tx_buf_ep2/pkt_fifo_wr_num[8]</Signal>
+                <Signal>usb_fifo/usb_tx_buf_ep2/pkt_fifo_wr_num[7]</Signal>
+                <Signal>usb_fifo/usb_tx_buf_ep2/pkt_fifo_wr_num[6]</Signal>
+                <Signal>usb_fifo/usb_tx_buf_ep2/pkt_fifo_wr_num[5]</Signal>
+                <Signal>usb_fifo/usb_tx_buf_ep2/pkt_fifo_wr_num[4]</Signal>
+                <Signal>usb_fifo/usb_tx_buf_ep2/pkt_fifo_wr_num[3]</Signal>
+                <Signal>usb_fifo/usb_tx_buf_ep2/pkt_fifo_wr_num[2]</Signal>
+                <Signal>usb_fifo/usb_tx_buf_ep2/pkt_fifo_wr_num[1]</Signal>
+                <Signal>usb_fifo/usb_tx_buf_ep2/pkt_fifo_wr_num[0]</Signal>
+            </Bus>
+            <Signal>usb_fifo/o_usb_txcork</Signal>
+            <Signal>usb_txpop</Signal>
+            <Bus name="usb_endpt_sel[3:0]">
+                <Signal>usb_endpt_sel[3]</Signal>
+                <Signal>usb_endpt_sel[2]</Signal>
+                <Signal>usb_endpt_sel[1]</Signal>
+                <Signal>usb_endpt_sel[0]</Signal>
+            </Bus>
+            <Signal>usb_fifo/usb_tx_buf_ep2/rst</Signal>
+            <Bus name="usb_fifo/usb_rx_buf_ep1/pkt_fifo_wr_num[10:0]">
+                <Signal>usb_fifo/usb_rx_buf_ep1/pkt_fifo_wr_num[10]</Signal>
+                <Signal>usb_fifo/usb_rx_buf_ep1/pkt_fifo_wr_num[9]</Signal>
+                <Signal>usb_fifo/usb_rx_buf_ep1/pkt_fifo_wr_num[8]</Signal>
+                <Signal>usb_fifo/usb_rx_buf_ep1/pkt_fifo_wr_num[7]</Signal>
+                <Signal>usb_fifo/usb_rx_buf_ep1/pkt_fifo_wr_num[6]</Signal>
+                <Signal>usb_fifo/usb_rx_buf_ep1/pkt_fifo_wr_num[5]</Signal>
+                <Signal>usb_fifo/usb_rx_buf_ep1/pkt_fifo_wr_num[4]</Signal>
+                <Signal>usb_fifo/usb_rx_buf_ep1/pkt_fifo_wr_num[3]</Signal>
+                <Signal>usb_fifo/usb_rx_buf_ep1/pkt_fifo_wr_num[2]</Signal>
+                <Signal>usb_fifo/usb_rx_buf_ep1/pkt_fifo_wr_num[1]</Signal>
+                <Signal>usb_fifo/usb_rx_buf_ep1/pkt_fifo_wr_num[0]</Signal>
+            </Bus>
+            <Signal>usb_txact</Signal>
+            <Bus name="usb_txdat_len[11:0]">
+                <Signal>usb_txdat_len[11]</Signal>
+                <Signal>usb_txdat_len[10]</Signal>
+                <Signal>usb_txdat_len[9]</Signal>
+                <Signal>usb_txdat_len[8]</Signal>
+                <Signal>usb_txdat_len[7]</Signal>
+                <Signal>usb_txdat_len[6]</Signal>
+                <Signal>usb_txdat_len[5]</Signal>
+                <Signal>usb_txdat_len[4]</Signal>
+                <Signal>usb_txdat_len[3]</Signal>
+                <Signal>usb_txdat_len[2]</Signal>
+                <Signal>usb_txdat_len[1]</Signal>
+                <Signal>usb_txdat_len[0]</Signal>
+            </Bus>
+            <Signal>IIS_LRCK_O</Signal>
+            <Bus name="usb_fifo/tx_len_last[11:0]">
+                <Signal>usb_fifo/tx_len_last[11]</Signal>
+                <Signal>usb_fifo/tx_len_last[10]</Signal>
+                <Signal>usb_fifo/tx_len_last[9]</Signal>
+                <Signal>usb_fifo/tx_len_last[8]</Signal>
+                <Signal>usb_fifo/tx_len_last[7]</Signal>
+                <Signal>usb_fifo/tx_len_last[6]</Signal>
+                <Signal>usb_fifo/tx_len_last[5]</Signal>
+                <Signal>usb_fifo/tx_len_last[4]</Signal>
+                <Signal>usb_fifo/tx_len_last[3]</Signal>
+                <Signal>usb_fifo/tx_len_last[2]</Signal>
+                <Signal>usb_fifo/tx_len_last[1]</Signal>
+                <Signal>usb_fifo/tx_len_last[0]</Signal>
+            </Bus>
+            <Bus name="usb_endpt_sel[3:0]">
+                <Signal>usb_endpt_sel[3]</Signal>
+                <Signal>usb_endpt_sel[2]</Signal>
+                <Signal>usb_endpt_sel[1]</Signal>
+                <Signal>usb_endpt_sel[0]</Signal>
+            </Bus>
+            <Signal>audio_tx_inst/fifo_right/Full</Signal>
+            <Signal>audio_tx_inst/fifo_left/Full</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>uac_ctrl_inst/get_ch0_volume_range</Signal>
+                    <Signal>uac_ctrl_inst/endpt0_send</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1">
+                <SignalList>
+                    <Signal>usb_setup</Signal>
+                    <Signal>usb_rxact</Signal>
+                    <Signal>usb_rxval</Signal>
+                    <Signal>usb_txpop</Signal>
+                    <Signal>usb_txact</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="2">
+                <SignalList>
+                    <Signal>phy_rxvalid</Signal>
+                    <Signal>phy_rxactive</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="3">
+                <SignalList>
+                    <Bus restorename="usb_endpt_sel[3:0]">
+                        <Signal>usb_endpt_sel[3]</Signal>
+                        <Signal>usb_endpt_sel[2]</Signal>
+                        <Signal>usb_endpt_sel[1]</Signal>
+                        <Signal>usb_endpt_sel[0]</Signal>
+                    </Bus>
+                    <Signal>usb_txpop</Signal>
+                    <Signal>usb_rxval</Signal>
+                    <Signal>async_fifo_rst</Signal>
+                    <Signal>usb_fifo/usb_tx_buf_ep2/rst</Signal>
+                    <Signal>usb_fifo/usb_tx_buf_ep2/flg2</Signal>
+                    <Signal>audio_tx_inst/fifo_right/Full</Signal>
+                    <Signal>audio_tx_inst/fifo_left/Full</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="4">
+                <SignalList>
+                    <Signal>audio_rx_inst/async_fifo/Full</Signal>
+                    <Signal>usb_fifo/usb_rx_buf_ep1/sync_rx_pkt_fifo/full</Signal>
+                    <Signal>usb_fifo/usb_tx_buf_ep2/sync_tx_pkt_fifo/full</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="0" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="XX" value1="00" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="XXXXX" value1="00000" trigger="1"/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="XX" value1="00" trigger="2"/>
+            <MatchUnit index="3" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="XXXXXXXXXXX" value1="00000000000" trigger="3"/>
+            <MatchUnit index="4" enabled="0" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="1" value0="000" value1="000" trigger="4"/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M3</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>0100101101111001</GAO_ID>
+</GAO_CONFIG>

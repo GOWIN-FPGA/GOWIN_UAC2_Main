@@ -1,0 +1,98 @@
+//
+//Written by GowinSynthesis
+//Product Version "V1.9.9 Beta3"
+//Sat Apr 01 17:52:33 2023
+
+//Source file index table:
+//file0 "\D:/Gowin/Gowin_V1.9.9Beta3/IDE/ipcore/RAMBasedShiftRegister/data/RAM_based_shift_reg_top.v"
+//file1 "\D:/Gowin/Gowin_V1.9.9Beta3/IDE/ipcore/RAMBasedShiftRegister/data/RAM_based_shift_reg.v"
+`timescale 100 ps/100 ps
+`pragma protect begin_protected
+`pragma protect version="2.2"
+`pragma protect author="default"
+`pragma protect author_info="default"
+`pragma protect encrypt_agent="GOWIN"
+`pragma protect encrypt_agent_info="GOWIN Encrypt Version 2.2"
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=256)
+`pragma protect key_keyowner="GOWIN",key_keyname="GWK2022-10",key_method="rsa"
+`pragma protect key_block
+EsB99RNN2jDDlvOtC9Wlh7weOo86jNuvP8+Y+8z9ZTSyT0knl7CTLrP2nb8CV/nPGryB1uYg15WX
+WWqxjadMCeH7Iu43ZKHJxc2bmYMGkPFxjegGUhflIW4+cjKi9fH04mRbV+ExNZr7YvWLu7TWO5DZ
+wk6hwx2WqqvUR4r8cPkRtiOruuc4h+NDq8R5YUCe4LjA+zm/igjPK1Kc6x45ykEy8HoIpflNDLDH
+iP7zUmqeQn7KtOhEnzlhoXWa0qesOENTjLEQDduptzwiHwoXbkrcO8yDB9mZhLxHn69+Ifz6UCoa
+OJ5U658I0TL6foQq1CgpHYM/NTY7qU/v64lvEQ==
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=2160)
+`pragma protect data_keyowner="default-ip-vendor"
+`pragma protect data_keyname="default-ip-key"
+`pragma protect data_method="aes128-cbc"
+`pragma protect data_block
+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
+`pragma protect end_protected
+module RAM_based_shift_reg_2 (
+  clk,
+  Reset,
+  Din,
+  Q
+)
+;
+input clk;
+input Reset;
+input [7:0] Din;
+output [7:0] Q;
+wire VCC;
+wire GND;
+  \~RAM_based_shift_reg.RAM_based_shift_reg_2  u_RAM_based_shift_reg (
+    .clk(clk),
+    .Reset(Reset),
+    .Din(Din[7:0]),
+    .Q(Q[7:0])
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* RAM_based_shift_reg_2 */

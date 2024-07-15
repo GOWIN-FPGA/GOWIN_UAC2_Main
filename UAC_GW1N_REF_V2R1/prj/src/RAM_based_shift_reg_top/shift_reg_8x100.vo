@@ -1,0 +1,134 @@
+//Copyright (C)2014-2023 Gowin Semiconductor Corporation.
+//All rights reserved.
+//File Title: Post-PnR Simulation Model file
+//GOWIN Version: V1.9.9 Beta3
+//Created Time: Sat Apr 01 16:54:58 2023
+
+`timescale 100 ps/100 ps
+module shift_reg_8x100(
+	clk,
+	Reset,
+	Din,
+	Q
+);
+input clk;
+input Reset;
+input [7:0] Din;
+output [7:0] Q;
+wire [7:0] Din;
+wire GND;
+wire [7:0] Q;
+wire Reset;
+wire VCC;
+wire clk;
+wire \u_RAM_based_shift_reg/n125_7 ;
+wire \u_RAM_based_shift_reg/n119_6 ;
+wire \u_RAM_based_shift_reg/n118_6 ;
+wire \u_RAM_based_shift_reg/n120_6 ;
+wire \u_RAM_based_shift_reg/n121_6 ;
+wire \u_RAM_based_shift_reg/n122_6 ;
+wire \u_RAM_based_shift_reg/n123_6 ;
+wire \u_RAM_based_shift_reg/n124_6 ;
+wire \u_RAM_based_shift_reg/n55_9 ;
+wire \u_RAM_based_shift_reg/n56_9 ;
+wire [1:0] \u_RAM_based_shift_reg/wbin ;
+wire [31:8] \u_RAM_based_shift_reg/DO ;
+VCC VCC_cZ (
+  .V(VCC)
+);
+GND GND_cZ (
+  .G(GND)
+);
+GSR GSR (
+	.GSRI(VCC)
+);
+LUT2 \u_RAM_based_shift_reg/n125_s2  (
+	.I0(Reset),
+	.I1(Din[0]),
+	.F(\u_RAM_based_shift_reg/n125_7 )
+);
+defparam \u_RAM_based_shift_reg/n125_s2 .INIT=4'h4;
+LUT2 \u_RAM_based_shift_reg/n119_s2  (
+	.I0(Reset),
+	.I1(Din[6]),
+	.F(\u_RAM_based_shift_reg/n119_6 )
+);
+defparam \u_RAM_based_shift_reg/n119_s2 .INIT=4'h4;
+LUT2 \u_RAM_based_shift_reg/n118_s2  (
+	.I0(Reset),
+	.I1(Din[7]),
+	.F(\u_RAM_based_shift_reg/n118_6 )
+);
+defparam \u_RAM_based_shift_reg/n118_s2 .INIT=4'h4;
+LUT2 \u_RAM_based_shift_reg/n120_s2  (
+	.I0(Reset),
+	.I1(Din[5]),
+	.F(\u_RAM_based_shift_reg/n120_6 )
+);
+defparam \u_RAM_based_shift_reg/n120_s2 .INIT=4'h4;
+LUT2 \u_RAM_based_shift_reg/n121_s2  (
+	.I0(Reset),
+	.I1(Din[4]),
+	.F(\u_RAM_based_shift_reg/n121_6 )
+);
+defparam \u_RAM_based_shift_reg/n121_s2 .INIT=4'h4;
+LUT2 \u_RAM_based_shift_reg/n122_s2  (
+	.I0(Reset),
+	.I1(Din[3]),
+	.F(\u_RAM_based_shift_reg/n122_6 )
+);
+defparam \u_RAM_based_shift_reg/n122_s2 .INIT=4'h4;
+LUT2 \u_RAM_based_shift_reg/n123_s2  (
+	.I0(Reset),
+	.I1(Din[2]),
+	.F(\u_RAM_based_shift_reg/n123_6 )
+);
+defparam \u_RAM_based_shift_reg/n123_s2 .INIT=4'h4;
+LUT2 \u_RAM_based_shift_reg/n124_s2  (
+	.I0(Reset),
+	.I1(Din[1]),
+	.F(\u_RAM_based_shift_reg/n124_6 )
+);
+defparam \u_RAM_based_shift_reg/n124_s2 .INIT=4'h4;
+LUT2 \u_RAM_based_shift_reg/n55_s3  (
+	.I0(\u_RAM_based_shift_reg/wbin [1]),
+	.I1(\u_RAM_based_shift_reg/wbin [0]),
+	.F(\u_RAM_based_shift_reg/n55_9 )
+);
+defparam \u_RAM_based_shift_reg/n55_s3 .INIT=4'h6;
+DFFC \u_RAM_based_shift_reg/wbin_1_s0  (
+	.D(\u_RAM_based_shift_reg/n55_9 ),
+	.CLK(clk),
+	.CLEAR(Reset),
+	.Q(\u_RAM_based_shift_reg/wbin [1])
+);
+defparam \u_RAM_based_shift_reg/wbin_1_s0 .INIT=1'b0;
+DFFC \u_RAM_based_shift_reg/wbin_0_s0  (
+	.D(\u_RAM_based_shift_reg/n56_9 ),
+	.CLK(clk),
+	.CLEAR(Reset),
+	.Q(\u_RAM_based_shift_reg/wbin [0])
+);
+defparam \u_RAM_based_shift_reg/wbin_0_s0 .INIT=1'b0;
+SP \u_RAM_based_shift_reg/mem_mem_0_0_s  (
+	.CLK(clk),
+	.OCE(GND),
+	.CE(VCC),
+	.RESET(Reset),
+	.WRE(VCC),
+	.BLKSEL({GND, GND, GND}),
+	.DI({GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, GND, \u_RAM_based_shift_reg/n118_6 , \u_RAM_based_shift_reg/n119_6 , \u_RAM_based_shift_reg/n120_6 , \u_RAM_based_shift_reg/n121_6 , \u_RAM_based_shift_reg/n122_6 , \u_RAM_based_shift_reg/n123_6 , \u_RAM_based_shift_reg/n124_6 , \u_RAM_based_shift_reg/n125_7 }),
+	.AD({GND, GND, GND, GND, GND, GND, GND, GND, GND, \u_RAM_based_shift_reg/wbin [1:0], GND, GND, GND}),
+	.DO({\u_RAM_based_shift_reg/DO [31:8], Q[7:0]})
+);
+defparam \u_RAM_based_shift_reg/mem_mem_0_0_s .READ_MODE=1'b0;
+defparam \u_RAM_based_shift_reg/mem_mem_0_0_s .WRITE_MODE=2'b10;
+defparam \u_RAM_based_shift_reg/mem_mem_0_0_s .BLK_SEL=3'b000;
+defparam \u_RAM_based_shift_reg/mem_mem_0_0_s .BIT_WIDTH=8;
+defparam \u_RAM_based_shift_reg/mem_mem_0_0_s .RESET_MODE="ASYNC";
+LUT1 \u_RAM_based_shift_reg/n56_s4  (
+	.I0(\u_RAM_based_shift_reg/wbin [0]),
+	.F(\u_RAM_based_shift_reg/n56_9 )
+);
+defparam \u_RAM_based_shift_reg/n56_s4 .INIT=2'h1;
+endmodule
