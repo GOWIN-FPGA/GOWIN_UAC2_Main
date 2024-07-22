@@ -1,4 +1,4 @@
-Welcome to GOWIN's open source UAC2 demo EDA project. 
+### Welcome to GOWIN's open source UAC2 demo EDA project. 
 
 The GOWIN USB Audio Class 2 (UAC2) reference design uses the following freely licensed Soft IP Cores,
 USB2.0 Soft-PHY & USB2.0 Controller, I2S RX & TX with control logic via USB HID (Human Interface Device).
@@ -6,6 +6,7 @@ Providing a starting point for customers to develop custom low-cost USB Audio ap
 
 <img src="pic/UAC2_I2S.jpg" align="right">
 GOWIN UAC2 (USB Audio Class) to I2S Reference Design
+
 
 ## UAC2 Features:
 
@@ -26,12 +27,17 @@ GOWIN UAC2 (USB Audio Class) to I2S Reference Design
 * The reference design supports UAC2 2x2 with UAC2 4x4 coming soon.
 ### Clocking Scheme
 * Asynchronous mode, with the clocks derived from an external crystal oscillator.
+* 
+&nbsp;
 
 <img src="pic/UAC2 Ref Design.png" align="right">
 UAC2 2x2 Typical Resource Utilization
 
+&nbsp; 
+
 <img src="pic/UAC2_Resource_Table.png" align="right">
 UAC2 Resource Table
 
+&nbsp; 
 
 You can download GOWIN's needed version of EDA (Gowin_V1.9.9) for this project here: https://www.gowinsemi.com/en/support/download_eda/
