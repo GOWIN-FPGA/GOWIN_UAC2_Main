@@ -28,7 +28,10 @@ GOWIN UAC2 (USB Audio Class) to I2S Reference Design
 * Asynchronous mode, with the clocks derived from an external crystal oscillator.
 
 <img src="pic/UAC2 Ref Design.png" align="right">
+UAC2 2x2 Typical Resource Utilization
 
 <img src="pic/UAC2_Resource_Table.png" align="right">
+UAC2 Resource Table
+
 
 You can download GOWIN's needed version of EDA (Gowin_V1.9.9) for this project here: https://www.gowinsemi.com/en/support/download_eda/
