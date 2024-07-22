@@ -27,7 +27,7 @@ GOWIN UAC2 (USB Audio Class) to I2S Reference Design
 * The reference design supports UAC2 2x2 with UAC2 4x4 coming soon.
 ### Clocking Scheme
 * Asynchronous mode, with the clocks derived from an external crystal oscillator.
-* 
+  
 &nbsp;
 
 <img src="pic/UAC2 Ref Design.png" align="right">
